@@ -1,0 +1,95 @@
+.second-part-container {
+    background-color: #f9f8f5;
+    color:black;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center
+  }
+  
+  .right-block {
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40%
+  }
+  
+  .left-block {
+    background-color: #f9f8f5;
+    border: 2px solid #EBD9B4;
+    border-radius: 50%;
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 60vh;
+    box-shadow: 
+    #fff2d8 0px 54px 80px,
+    #fff2d8 0px -12px 80px,
+    #fff2d8 0px 4px 80px,
+    #fff2d8 0px 12px 80px,
+    #fff2d8 0px -3px 80px;
+}
+
+
+  .leftImage {
+    
+    margin:auto;
+    width:70%;
+    height:80%;
+    background-image: url(../../Graph/logo_web&wave.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+  }
+
+  .buttonAction2 {
+    margin:auto;
+    margin-top:20px;
+    background-color: white;
+    width:40%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', sans-serif;
+    color: #e1aa3b;
+    padding: 10px 20px;
+    border: 2px solid #EBD9B4;
+    cursor: pointer;
+    box-shadow:
+#F9EFDB 0px 40px 40px,
+ rgba(255, 255, 255, 0.12) 0px -12px 30px,
+  rgba(249, 249, 249, 0.12) 0px 4px 6px,
+   rgba(255, 255, 255, 0.17) 0px 12px 13px,
+    rgba(255, 254, 254, 0.09) 0px -3px 5px;
+  }
+
+  .buttonAction2:hover{
+    color:#8f794e;
+transform: scale(1.02);
+
+  }
+
+  li {margin: 15px}
+
+
+  .right-block img{
+    z-index: -2;
+    border: grey 1px solid;
+    box-shadow: 0px 100px 300px 5px grey;
+    height: 70vh;
+    max-width: 100%;
+  }
+
+  
+  .description {
+    text-align: center;
+    margin:auto;
+    width: 80%;
+    opacity: 0.6;
+  }
+  

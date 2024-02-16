@@ -1,0 +1,44 @@
+#firstPart {
+  overflow: hidden;
+  width: 100vw; /* Remplacez width: 100% par width: 100vw */
+  height: 100vh; /* Remplacez height: 100% par height: 100vh */
+}
+
+   
+  
+  .buttonAction {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', sans-serif;
+    color: #e1aa3b;
+    padding: 10px 80px;
+    cursor: pointer;
+    border: 2px solid #EBD9B4;
+    box-shadow: 
+    #F9EFDB 0px 54px 70px,
+    rgba(255, 255, 255, 0.12) 0px -12px 30px,
+     rgba(255, 255, 255, 0.12) 0px 4px 6px,
+      rgba(252, 252, 252, 0.17) 0px 12px 13px,
+       rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  }
+  
+
+  .buttonAction:hover{
+    color:#8f794e;
+transform: scale(1.02);
+box-shadow:
+#F9EFDB 0px 40px 40px,
+ rgba(255, 255, 255, 0.12) 0px -12px 30px,
+  rgba(249, 249, 249, 0.12) 0px 4px 6px,
+   rgba(255, 255, 255, 0.17) 0px 12px 13px,
+    rgba(255, 254, 254, 0.09) 0px -3px 5px;
+  }
+  
+  #firstComponent canvas {
+    height:100vh;
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+  }

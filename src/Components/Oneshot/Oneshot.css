@@ -1,0 +1,12 @@
+#Oneshot{
+    color : #e1aa3b;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Oneshot li {
+    color : #e1aa3b;
+}
