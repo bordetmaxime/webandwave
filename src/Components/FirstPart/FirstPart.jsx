@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React from 'react';
 import logo from '../../Graph/logo_web&wave.png'
 import { Link } from 'react-router-dom';
 
