@@ -21,6 +21,7 @@ const Oneshot = () => {
                           </ul>
             <Link to='/contact'>Nous contacter</Link>
             </Link>
+            
     </div>
   );
 };

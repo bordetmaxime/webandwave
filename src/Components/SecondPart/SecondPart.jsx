@@ -5,7 +5,7 @@ const SecondPart = () => {
 
     
   return (
-    <div className="second-part-container" >
+    <div className="secondPartContainer" >
         <style>
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');

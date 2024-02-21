@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+#Specifique a{
+    padding:25px
+    }
+
 #Specifique li {
     color : #e1aa3b;
 }

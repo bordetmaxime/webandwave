@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import logo from '../../Graph/logo_web&wave.png'
+// import logoOrdi from '../../Graph/ordi.png'
+// import logoInsta from '../../Graph/insta.png'
+// import logoFacebook from '../../Graph/facebook.png'
 import './Offer.css';
 
 const Offer = () => {
@@ -72,7 +75,16 @@ const Offer = () => {
         </div>
         </div>
         </Link>
-        
+        {/* <div style={{display:'flex', marginTop:'50px', marginLeft:'15px'}}>
+        <img style={{width:'10%'}} src={logoOrdi} alt="" />
+        <div>
+        <h3>Rejoignez nous</h3>
+        <div style={{width:'20%', display:'flex', justifyContent:'center'}}>
+        <img style={{width:'40%', height:'30%', marginRight:'10px'}} src={logoInsta} alt="" />
+        <img style={{width:'40%', height:'30%'}} src={logoFacebook} alt="" />
+        </div>
+        </div>
+      </div> */}
       </div>
   );
 };

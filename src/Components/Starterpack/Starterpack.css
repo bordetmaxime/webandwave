@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+#Starterpack a{
+padding:25px
+}
+
 #Starterpack li {
     color : #e1aa3b;
 }

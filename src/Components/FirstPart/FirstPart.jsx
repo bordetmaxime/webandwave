@@ -13,7 +13,7 @@ const FirstPart = () => {
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 </style>
       <div className="ui text container" style={{width:'100%', height:'100%', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
-      <img style={{width:'50%'}} src={logo} alt="" />
+      <img style={{width:'60%'}} src={logo} alt="" />
       <Link to="/about" className="buttonAction" >Découvrir Nos Services</Link>
         </div>
     </div>

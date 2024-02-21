@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+#Oneshot a{
+    padding:25px
+    }
+
 #Oneshot li {
     color : #e1aa3b;
 }
