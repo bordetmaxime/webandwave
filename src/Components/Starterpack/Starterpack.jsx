@@ -18,7 +18,7 @@ const Starterpack = () => {
                 <li>Nous vous créons un site internet clé en main, avec une expérience utilisateur étudié afin de simplifier la naviguation de vos clients.</li> 
                 <li>Nous vous conseillons sur les bonnes pratiques pour sécurisé votre entreprise sur le web, ainsi que la mise en place d'outils permettant de sécurisé vos accès, moyens de paiements..</li>
                           </ul>
-            <Link to='/contact'>Nous contacter</Link>
+            <Link style={{textAlign:'center'}} to='/contact'>Nous contacter</Link>
              </Link>
     </div>
   );

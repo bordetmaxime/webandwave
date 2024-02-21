@@ -13,3 +13,11 @@ padding:25px
 #Starterpack li {
     color : #e1aa3b;
 }
+
+@media (max-width: 580px) {
+
+    #Starterpack a{
+        width: 80%;
+        padding:15px 0px;
+    }
+    }

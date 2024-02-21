@@ -13,3 +13,14 @@
 #Specifique li {
     color : #e1aa3b;
 }
+
+@media (max-width: 580px) {
+
+    #Specifique a{
+        width: 80%;
+       padding:15px 0px;
+    }
+
+
+
+    }

@@ -7,7 +7,7 @@ const Oneshot = () => {
 
 
   return (
-   <div className="Starterpack" id='Starterpack'>
+   <div className="Oneshot" id='Oneshot'>
       <Link to="/contact" className='box' id='secondBox'>
         <h1 style={{fontSize:'2em',  color:'black', textAlign:'center'}}>
                 One shot 🤠
@@ -19,7 +19,7 @@ const Oneshot = () => {
                 <li>Création d'un site internet clé en main, avec une expérience utilisateur étudié afin de simplifier la naviguation de vos clients.</li> 
                 <li>Ajout d'élement sur votre site internet (création d'un backoffice, d'une page, d'une section...)</li> 
                           </ul>
-            <Link to='/contact'>Nous contacter</Link>
+            <Link style={{textAlign:'center'}} to='/contact'>Nous contacter</Link>
             </Link>
             
     </div>
